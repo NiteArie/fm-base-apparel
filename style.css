@@ -84,6 +84,18 @@ body {
     cursor: pointer;
 }
 
+.container__content__main__form__submit:hover {
+    background-color: hsla(0, 54%, 54%);
+}
+
+.container__content__main__form__submit:active {
+    outline: none;
+}
+
+.container__content__main__form__submit:focus {
+    outline: none;
+}
+
 .container__cover {
     width: 100%;
     background-image: url("images/hero-desktop.jpg");
