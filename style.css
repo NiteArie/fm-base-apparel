@@ -59,10 +59,11 @@ body {
 .container__content__main__form__email {
     flex-basis: 400px;
     padding: 18px 30px;
+    padding-right: 80px;
     border: 2px solid hsla(0, 36%, 70%, 0.5);
     color: hsl(0, 6%, 24%);
     font-weight: 600;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     border-radius: 30px;
     background-color: transparent;
 }
@@ -71,6 +72,13 @@ body {
     outline: none;
     border: 2px solid hsl(0, 36%, 70%);
     opacity: 1;
+}
+
+.container__content__main__form__email.error {
+    border: 2px solid hsl(0, 93%, 68%);
+    background-image: url("images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 87% 50%;
 }
 
 .container__content__main__form__submit {
@@ -85,7 +93,8 @@ body {
 }
 
 .container__content__main__form__submit:hover {
-    background-color: hsla(0, 54%, 54%);
+    background-color: hsla(0, 34%, 74%);
+    background-image: none;
 }
 
 .container__content__main__form__submit:active {
@@ -96,10 +105,21 @@ body {
     outline: none;
 }
 
+.container__content__main__error {
+    display: block;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: hsl(0, 93%, 68%);
+}
+
 .container__cover {
     width: 100%;
     background-image: url("images/hero-desktop.jpg");
     background-repeat: no-repeat;
+}
+
+.hidden {
+    display: none;
 }
 
 @media only screen and (max-width: 1300px) {

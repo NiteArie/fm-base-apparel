@@ -35,7 +35,7 @@
           Hello fellow shoppers! We're currently building our new fashion store. 
   Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
-        <form class="container__content__main__form">
+        <form class="container__content__main__form" novalidate>
           <input class="container__content__main__form__email"
             type="email" placeholder="Email Address"
           >
@@ -43,6 +43,9 @@
             <img src="images/icon-arrow.svg" alt="Go">
           </button>
         </form>
+        <span class="container__content__main__error hidden">
+          Please provide a valid email
+        </span>
       </div>
     </div>
     <div class="container__cover">
