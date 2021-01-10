@@ -1,5 +1,9 @@
 # fm-base-apparel (Base Apparel Coming Soon Page)
 
+## Live Preview 
+
+Live Version: [https://nitearie.github.io/fm-base-apparel/](https://nitearie.github.io/fm-base-apparel/)
+
 ## Design Preview
 
 ![Desktop Design](./design/desktop-design.jpg)
